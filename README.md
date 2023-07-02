@@ -1,4 +1,4 @@
-# BGPurge
+# BGPurge 1.0-rc1
 
 
 ### Compile:
