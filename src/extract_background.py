@@ -1,6 +1,6 @@
 # this is part of the BGPurge project.
 #
-# Release: v1.0-rc1
+# Release: v1.0-rc2
 #
 # Copyright ©  2023  Juan Bindez  <juanbindez780@gmail.com>
 #

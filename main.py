@@ -1,6 +1,6 @@
 # this is part of the BGPurge project.
 #
-# Release: v1.0-rc1
+# Release: v1.0-rc2
 #
 # Copyright ©  2023  Juan Bindez  <juanbindez780@gmail.com>
 #
@@ -21,8 +21,9 @@
 
 from tkinter import Tk, Button, filedialog
 from tkinter import messagebox
+from tkinter import *
 
-from src.aboult_module import *
+from src.aboult_module import help_info
 from src.extract_background import extract_bg
 
 
@@ -37,5 +38,11 @@ button_first = Button(window,
                 font=('Arial'),
                 width=57,).place(x=0, y=300)
 
+menu_barra = Menu(window)
+
+menu_arquivo = Menu(menu_barra, tearoff=1)
+menu_arquivo.add_command(label="Help", command=help_info, font=('Arial'))
+menu_barra.add_cascade(label="Menu", menu=menu_arquivo)
+window.config(menu=menu_barra)
 
 window.mainloop()
