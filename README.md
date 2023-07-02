@@ -1,9 +1,9 @@
-# BGPurge 1.0-rc2
+# BGPurge 1.0-rc3
 
 
 ### Compile:
 
-    pyinstaller --name BGPurge-v1.0-rc2-x86_64 --onefile --noconsole --windowed main.py
+    pyinstaller --name BGPurge-v1.0-rc3-x86_64 --onefile --noconsole --windowed main.py
 
 ### Remove background:
 
