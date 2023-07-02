@@ -19,23 +19,28 @@
 # 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 
 
-from tkinter import Tk, Button, filedialog
+
+from rembg import remove
+import PIL.Image
+import tkinter as tk
+from tkinter import filedialog
 from tkinter import messagebox
 
-from src.aboult_module import *
-from src.extract_background import extract_bg
 
 
-window = Tk()
-window.title("BGPurge")
-window.geometry("530x375")
+def extract_bg():
+    def open_file():
 
+        file_path = filedialog.askopenfilename()
+        return file_path
 
-button_first = Button(window,
-                text="Select Image",
-                command=extract_bg,
-                font=('Arial'),
-                width=57,).place(x=0, y=300)
+    image_name = open_file()
 
+    if image_name:
+        img = PIL.Image.open(image_name)
 
-window.mainloop()
+        image_out = remove(img)
+
+        image_out.save('image_out.png')
+        messagebox.showinfo("BGPurge", 
+                                    "Successfully cleaned background image salved!")
