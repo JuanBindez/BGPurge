@@ -1,6 +1,6 @@
 # this is part of the BGPurge project.
 #
-# Release: v1.0-rc2
+# Release: v1.0-rc3
 #
 # Copyright ©  2023  Juan Bindez  <juanbindez780@gmail.com>
 #
@@ -44,7 +44,7 @@ def help_info():
    
    custom_font_version = ('Arial', 14)
    label = Label(window,
-                text="v1.0-rc2",
+                text="v1.0-rc3",
                 font=custom_font_version).place(x=185, y=45)
 
    label = Label(window, 
