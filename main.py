@@ -1,6 +1,6 @@
 # this is part of the BGPurge project.
 #
-# Release: v1.0-rc3
+# Release: v1.0-rc4
 #
 # Copyright ©  2023  Juan Bindez  <juanbindez780@gmail.com>
 #
@@ -18,6 +18,7 @@
 # with this program; if not, write to the Free Software Foundation, Inc.,
 # 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 
+import base64
 
 from tkinter import Tk, Button, filedialog
 from tkinter import messagebox
@@ -25,11 +26,17 @@ from tkinter import *
 
 from src.aboult_module import help_info
 from src.extract_background import extract_bg
+from src.check_update_module import *
+from src.images import *
 
 
 window = Tk()
 window.title("BGPurge")
 window.geometry("530x375")
+
+bg = PhotoImage(data=base64.b64decode(BANNER))
+label = Label(window, image=bg, bd=0)
+label.place(x = 0,y = 0)
 
 
 button_first = Button(window,
@@ -45,4 +52,6 @@ menu_arquivo.add_command(label="Help", command=help_info, font=('Arial'))
 menu_barra.add_cascade(label="Menu", menu=menu_arquivo)
 window.config(menu=menu_barra)
 
-window.mainloop()
+if __name__ == "__main__":
+    check_new_version("1.0-rc4")
+    window.mainloop()
