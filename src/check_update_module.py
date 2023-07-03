@@ -56,4 +56,5 @@ def check_new_version(current_version):
                 exit()
 
     except urllib.error.URLError:
-        pass
+        messagebox.showerror("Cautionr", "no internet connection")
+        exit()
