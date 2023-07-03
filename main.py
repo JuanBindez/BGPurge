@@ -1,6 +1,6 @@
 # this is part of the BGPurge project.
 #
-# Release: v1.0-rc4
+# Release: v1.0-rc5
 #
 # Copyright ©  2023  Juan Bindez  <juanbindez780@gmail.com>
 #
@@ -53,5 +53,5 @@ menu_barra.add_cascade(label="Menu", menu=menu_arquivo)
 window.config(menu=menu_barra)
 
 if __name__ == "__main__":
-    check_new_version("1.0-rc4")
+    check_new_version("1.0-rc5")
     window.mainloop()

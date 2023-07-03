@@ -1,6 +1,6 @@
 # this is part of the BGPurge project.
 #
-# Release: v1.0-rc4
+# Release: v1.0-rc5
 #
 # Copyright ©  2023  Juan Bindez  <juanbindez780@gmail.com>
 #
@@ -42,11 +42,15 @@ def check_new_version(current_version):
             message = f"BGPurge {latest_version} Available!\n\n"
             message += f"Release Date: {version_data.get('release_date', '')}\n"
             message += f"\nNew:\n{version_data.get('new', '')}"
+
             link_update = version_data.get('link', '')
+
+            link = link_update[0]
 
             ask = messagebox.askokcancel("PGPurge", message + "\n\n\n\nwant to download the new version?")
             if ask == True:
-                webbrowser.open(link_update)
+                print(link)
+                webbrowser.open(link)
                 exit()
             elif ask == False:
                 exit()
