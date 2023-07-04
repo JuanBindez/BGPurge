@@ -1,6 +1,6 @@
 # this is part of the BGPurge project.
 #
-# Release: v1.0-rc5
+# Release: v1.0.0
 #
 # Copyright ©  2023  Juan Bindez  <juanbindez780@gmail.com>
 #
@@ -43,7 +43,22 @@ button_first = Button(window,
                 text="Select Image",
                 command=extract_bg,
                 font=('Arial'),
-                width=57,).place(x=0, y=300)
+                width=57,).place(x=0, y=280)
+
+custom_font1 = ('Arial', 40)
+label = Label(window,
+                text="BGPurge",
+                font=custom_font1,).place(x=155, y=100)
+
+custom_font2 = ('Arial', 10)
+label = Label(window,
+                text="select the image and the program will remove the background",
+                font=custom_font2,).place(x=90, y=200)
+
+custom_font3 = ('Arial', 12)
+label = Label(window,
+                text="v1.0.0",
+                font=custom_font3,).place(x=5, y=350)
 
 menu_barra = Menu(window)
 
@@ -53,5 +68,5 @@ menu_barra.add_cascade(label="Menu", menu=menu_arquivo)
 window.config(menu=menu_barra)
 
 if __name__ == "__main__":
-    check_new_version("1.0-rc5")
+    check_new_version("1.0.0")
     window.mainloop()

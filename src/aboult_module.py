@@ -1,6 +1,6 @@
 # this is part of the BGPurge project.
 #
-# Release: v1.0-rc5
+# Release: v1.0.0
 #
 # Copyright ©  2023  Juan Bindez  <juanbindez780@gmail.com>
 #
@@ -27,7 +27,6 @@ from tkinter import ttk
 
 def help_info():
    """displays information about the program.
-
    clicking on the button will open a window with information.
    """
     
@@ -44,7 +43,7 @@ def help_info():
    
    custom_font_version = ('Arial', 14)
    label = Label(window,
-                text="v1.0-rc5",
+                text="v1.0.0",
                 font=custom_font_version).place(x=185, y=45)
 
    label = Label(window, 
