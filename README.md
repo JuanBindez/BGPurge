@@ -13,9 +13,6 @@
 - Ubuntu (Linux)
 
 -----------
-### Compile:
-
-    pyinstaller --name BGPurge-v1.0.0-x86_64 --onefile --noconsole --windowed main.py
 
 ![image](https://github.com/JuanBindez/BGPurge/assets/79322362/835126bb-3f3e-4481-8be3-7d31a2e4bf33)
 
@@ -34,3 +31,8 @@
 ![Captura de tela de 2023-07-02 10-53-22](https://github.com/JuanBindez/BGPurge/assets/79322362/9f79c156-207d-4b84-9697-6ddcd02ad705)
 
 ![Captura de tela de 2023-07-02 10-54-37](https://github.com/JuanBindez/BGPurge/assets/79322362/9b251a80-6a24-4d61-8909-ef7ee891b0a9)
+
+### Compile:
+
+    pyinstaller --name BGPurge-v1.0.0-x86_64 --onefile --noconsole --windowed main.py
+
