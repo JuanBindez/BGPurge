@@ -2,7 +2,7 @@
 
 ### Release Notes:
 
- - Initial version only with the feature of selecting an image and removing the background automatically and saved in .png, being possible to use the image in image editors,
+ - Initial version only with the feature of selecting an image and removing the background automatically and saved in .png.
         
  - simple and easy to use practical software
 
