@@ -62,7 +62,7 @@ label = Label(window,
 
 menu_barra = Menu(window)
 
-menu_arquivo = Menu(menu_barra, tearoff=1)
+menu_arquivo = Menu(menu_barra, tearoff=0)
 menu_arquivo.add_command(label="Help", command=help_info, font=('Arial'))
 menu_barra.add_cascade(label="Menu", menu=menu_arquivo)
 window.config(menu=menu_barra)

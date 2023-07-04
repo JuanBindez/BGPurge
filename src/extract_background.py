@@ -41,6 +41,6 @@ def extract_bg():
 
         image_out = remove(img)
 
-        image_out.save('image_out.png')
+        image_out.save(f'{image_name}_bgpurge_out.png')
         messagebox.showinfo("BGPurge", 
                                     "Successfully cleaned background image salved!")
