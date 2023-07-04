@@ -8,9 +8,9 @@
 
 ### Runs on 64bit:
 
-- Windows 10
-- Windows 11
-- Ubuntu (Linux)
+- Windows 10 __[Download](https://github.com/JuanBindez/BGPurge/releases/download/v1.0.0/BGPurge-v1.0.0-x86_64-win10-win11.exe)__.
+- Windows 11 __[Download](https://github.com/JuanBindez/BGPurge/releases/download/v1.0.0/BGPurge-v1.0.0-x86_64-win10-win11.exe)__.
+- Ubuntu (Linux) __[Download](https://github.com/JuanBindez/BGPurge/releases/download/v1.0.0/BGPurge-v1.0.0-x86_64-Ubuntu)__.
 
 -----------
 
