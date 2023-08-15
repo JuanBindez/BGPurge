@@ -17,6 +17,7 @@
 ![image](https://github.com/JuanBindez/BGPurge/assets/79322362/835126bb-3f3e-4481-8be3-7d31a2e4bf33)
 
 
+
 ### Remove background:
 
 ![Captura de tela de 2023-07-02 10-51-07](https://github.com/JuanBindez/BGPurge/assets/79322362/59339e17-3ed4-4af3-b408-128ffd44e6dd)
