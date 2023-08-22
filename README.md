@@ -6,13 +6,6 @@
         
  - simple and easy to use practical software
 
-### Runs on 64bit:
-
-- __[Windows 10](https://github.com/JuanBindez/BGPurge/releases/download/v1.0.0/BGPurge-v1.0.0-x86_64-win10-win11.exe)__.
-- __[Windows 11](https://github.com/JuanBindez/BGPurge/releases/download/v1.0.0/BGPurge-v1.0.0-x86_64-win10-win11.exe)__.
-- __[Ubuntu (Linux)](https://github.com/JuanBindez/BGPurge/releases/download/v1.0.0/BGPurge-v1.0.0-x86_64-Ubuntu)__.
-
------------
 
 ![image](https://github.com/JuanBindez/BGPurge/assets/79322362/835126bb-3f3e-4481-8be3-7d31a2e4bf33)
 
